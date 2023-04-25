@@ -31,13 +31,13 @@ const Checkout = () => {
             <div className="min-w-screen-5xl  min-h-[122px] flex flex-col gap-4 sm:px-14 bg-white text-md md:text-xl  justify-center rounded-lg p-4 drop-shadow-md">
               <div className="w-full flex items-center gap-2">
                 <BsPerson className="text-xl" />
-                <p className="text-md">Deepak</p>
+                <p className="text-md">Person Name</p>
               </div>
 
               <div className="w-full flex  items-start  gap-2">
                 <SlLocationPin className="mt-1 text-xl" />
                 <p className="ml-1 overflow-scroll ">
-                  15, West Street,Kolakkattupudur,Namakkal-House
+                  Door No, Street, Place , District-House
                 </p>
               </div>
             </div>

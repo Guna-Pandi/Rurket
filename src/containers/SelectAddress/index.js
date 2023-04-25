@@ -8,12 +8,12 @@ import SubmitButton from "../../components/SubmitButton";
 const customerAddress = [
   {
     id: 1,
-    name: "Deepak",
+    name: "Person Name 1",
     address: "15, West Street, Kolakkattupudur,Namakkal-House",
   },
   {
     id: 2,
-    name: "Chandru",
+    name: "Person Name 2",
     address: "10, East Street, Valanthankottai,Erode-House",
   },
 ];
