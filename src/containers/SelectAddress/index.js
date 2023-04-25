@@ -9,12 +9,12 @@ const customerAddress = [
   {
     id: 1,
     name: "Person Name 1",
-    address: "15, West Street, Kolakkattupudur,Namakkal-House",
+    address: "15, West Street, Anna nagar,Chennai - Office",
   },
   {
     id: 2,
     name: "Person Name 2",
-    address: "10, East Street, Valanthankottai,Erode-House",
+    address: "10, East Street, Peelamedu,Coimbatore- College",
   },
 ];
 
