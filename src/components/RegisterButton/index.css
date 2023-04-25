@@ -1,0 +1,20 @@
+.registerbutton {
+  width: 176px;
+  height: 56px;
+  background-color: black;
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 10px;
+  border-radius: 12px;
+  margin-top: 16px;
+  text-shadow: 2px;
+}
+@media (min-width: 768px) {
+  .registerbutton {
+    width: 208px;
+    height: 80px ;
+    font-size: 24px;
+    line-height: 30px ;
+  }
+}

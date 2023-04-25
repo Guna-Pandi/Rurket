@@ -1,0 +1,16 @@
+.result {
+  height: 66px;
+  left: 72px;
+  top: 35px;
+  position: absolute;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 33px;
+  color: #000000;
+}
+
+@media only screen and (min-width: 550px) {
+  .result {
+    top: 50px;
+  }
+}

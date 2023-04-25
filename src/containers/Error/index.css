@@ -1,0 +1,21 @@
+.errorCointainer {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background-color: rgb(245 245 248);
+}
+
+.errorTitle {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 40px;
+}
+
+.errorDescription {
+  font-size: 18px;
+  line-height: 28px;
+  color: rgb(107 114 128);
+}

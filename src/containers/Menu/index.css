@@ -1,0 +1,79 @@
+.Menu{
+    height: 100vh;
+    position: relative;
+    background-color: #5DC139;
+}
+.Svg{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+.Para{
+    flex-direction: column;
+    display: flex;
+    height: 100vh;
+    padding-left: 41px;
+    padding-top : 48px;
+    border-radius: nullpx;
+    font-style: normal;
+    font-size: 17px;
+    color: #FFFFFF;
+}
+
+.Cc{
+    border-radius: nullpx;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 20px;
+    color: #FFFFFF;
+    line-height: 19.96px;
+}
+.Below{
+    padding-top: 10px;
+    line-height: 20px;
+    font-weight: 400;
+}
+.H4{
+    line-height: 5;
+}
+.Svg2{
+    padding-top: 200px;
+    padding-left: 165px;
+}
+.Svg3{
+    padding-top: 17px;
+    padding-left: 15px;
+}
+.Ro{
+    position: absolute;
+    flex-direction: row;
+    display: flex;
+    bottom: 100px;
+    padding-left: 15px;
+}
+.Sign{
+    padding-left: 5px;
+}
+
+@media screen and (min-width: 700px) {
+   .Para{
+    font-size: 40px;
+    padding-left: 50px;
+    padding-top : 48px;
+   } 
+   .Cc{
+    font-size: 50px;
+    line-height: 60px;
+   }
+   .Below{
+    padding-top: 15px;
+    line-height: 40px;
+   }
+   .Sign{
+    padding-left:20px;
+}
+.Svg4{
+    width: 40px;
+}
+}

@@ -1,0 +1,45 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  theme: {
+    extend: {
+      colors: {
+        rurketGreen: "#77BB3A",
+        rurketLoginGreen: "#87CF2F",
+        rurketLoginLine:"#252525",
+        rurketBgGray: "#F6F6F9",
+        rurketErrorPageBg:"#F5F5F8",
+        rurketButtonBlack:"#252525",
+        rurketDelete:"#FA4A0C",
+        rurketPaleGreen:"#EBFFD7",
+        rurketItemsGreen:"#81A838",
+        rurketAddtoBagGreen:"#6CC51D",
+        rurketTextGray:"#868889",
+        rurketDividerLine:"#EBEBEB",
+        rurketIconBgGray:"#F5F5F5",
+        rurketSearchBorderGray:"#C9C9C9",
+        rurketSearchTextGray:"#868686",
+        rurketSearchFocusGreen:"#60B937",
+        rurketCategoryGreen:"#E6F2EA",
+        rurketCategoryRed:"#FFE9E5",
+        rurketCategoryYellow:"#FFF6E3",
+        rurketCategoryViolet:"#F3EFFA",
+        rurketCategoryBlue:"#DCF4F5",
+        rurketCategoryPink:"#FFE8F2",
+        rurketItemBg:"#FFE6C2",
+        rurketDarkRed:"#FF2E00",
+        rurketShadowColor:"#393939",
+        rurketAdminGrayLine:"#E0E1E2",
+        rurketAdminGreen:"#76C139",
+      },
+      fontFamily: {
+        poppins: ["poppins"],
+        lato: ["lato"],
+      },
+    },
+  },
+  plugins: [
+    require('@tailwindcss/forms'),
+    require('tailwind-scrollbar'),
+  ],
+};

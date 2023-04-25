@@ -1,0 +1,90 @@
+.pobutton {
+  display: flex;
+  background-color: #000;
+  color: #fff;
+  border-radius: 10px;
+  /*padding: 5px 16px 10px 10px;*/
+  padding-left: 5px;
+  padding-right: 13px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.tbnt {
+  color: #a5da43;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.8rem;
+  padding-top: 13px;
+  padding-right: 3px;
+}
+.txt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding-top: 16px;
+  font-size: 16px;
+}
+.tmcle {
+  display: flex;
+  color: #ff2e00;
+  font-size: 3.5rem;
+}
+.num {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  margin-right: 8px;
+  margin-left: -37px;
+  padding-bottom: 8px;
+}
+.number {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  padding-top: 7px;
+}
+
+@media screen and (min-width: 768px) {
+  .pobutton {
+    bottom: 10px;
+    right: 10px;
+    width: 20rem;
+    height: 5rem;
+  }
+  .txt {
+    font-size: 30px;
+    padding-left: 4px;
+  }
+  .tbnt {
+    font-size: 2.5rem;
+    padding-top: 13px;
+    padding-right: 3px;
+    padding-left: 10px;
+  }
+  .tmcle {
+    font-size: 4.5rem;
+    margin-right: -12px;
+  }
+  .num {
+    display: flex;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    margin-right: 9px;
+    margin-left: -55px;
+    padding-bottom: 10px;
+  }
+  .number {
+    font-size: 35px;
+    margin-right: 11px;
+    padding-right: 15px;
+    align-items: center;
+    margin-left: 5px;
+  }
+}

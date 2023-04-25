@@ -1,0 +1,15 @@
+.result1 {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 33px;
+  text-align: center;
+  color: #000000;
+}
+
+.lArrow {
+  position: absolute;
+  font-size: 23px;
+  top: 60px;
+  left: 29px;
+  padding-right: 5px;
+}

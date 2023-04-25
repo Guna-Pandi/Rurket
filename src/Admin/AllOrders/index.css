@@ -1,0 +1,262 @@
+.container-full {
+  display: flex;
+  background: #f8f9fa;
+  height: 100vh;
+}
+.left-side {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  width: 15%;
+}
+.heading-p {
+  padding-left: 2rem;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  font-weight: 600;
+}
+.straight-line {
+  margin-top: 1.5rem;
+  width: 100%;
+  height: 1px;
+  background-color: gray;
+  opacity: 0.4;
+}
+.product-orders {
+  padding-left: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  margin-top: 1.5rem;
+}
+.product-container {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+.pro-cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  border-radius: 0.75rem;
+}
+.chart-img {
+  width: 1rem;
+  height: 1rem;
+  object-fit: cover;
+}
+.pro-text {
+  font-weight: 600;
+  opacity: 1;
+  color: #9ca3af;
+}
+.order-container {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+}
+.ord-cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.25rem;
+  width: 2.25rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  border-radius: 0.75rem;
+}
+.sharp-img {
+  height: 1.25rem;
+  width: 1.25rem;
+  object-fit: contain;
+}
+.ord-text {
+  font-weight: 600;
+  opacity: 1;
+  color: #9ca3af;
+}
+.middle-side {
+  margin-left: 25px;
+}
+.right-side {
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.heading-head {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.5rem;
+}
+.heading-h {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  font-weight: 700;
+  font-size: 14px;
+}
+.big-box {
+  background: #ffffff;
+  box-shadow: 0px 3.5px 5.5px rgba(0, 0, 0, 0.02);
+  border-radius: 15px;
+  margin-top: 5rem;
+  width: 100%;
+  bottom: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.h-h {
+  padding-top: 10px;
+  padding-left: 10px;
+  font-weight: 500;
+  font-size: 18px;
+}
+.h-head {
+  padding-top: 15px;
+  padding-left: 15px;
+}
+.box-table {
+  padding-left: 10px;
+  padding-top: 15px;
+  border-collapse: collapse;
+  overflow-x: auto;
+}
+.main-col {
+  color: #a0aec0;
+  font-size: 10px;
+}
+.whole-table {
+  width: 100%;
+}
+.table-line {
+  margin-top: 0.5rem;
+  height: 2px;
+  --tw-bg-opacity: 1;
+  background-color: rgb(224 245 226 / var(--tw-bg-opacity));
+}
+.th-1 {
+  text-align: left;
+}
+.th-2 {
+  text-align: left;
+}
+.th-3 {
+  text-align: left;
+}
+.th-4 {
+  text-align: center;
+}
+.th-5 {
+  text-align: center;
+}
+.th-6 {
+  text-align: left;
+}
+.th-7 {
+  text-align: left;
+}
+.th-8 {
+  text-align: left;
+}
+.td-1 {
+  text-align: left;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: "lato";
+}
+.td-2 {
+  text-align: left;
+  font-family: "Lato";
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 700;
+}
+.td-3 {
+  text-align: left;
+  font-family: "lato";
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 700;
+}
+.td-4 {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+}
+.od-btn-or {
+  background: #6d6e71;
+  border-radius: 8px;
+  padding: 2px;
+  width: 75%;
+}
+.od-btn-c {
+  background: #607fea;
+  border-radius: 8px;
+  width: 75%;
+  padding: 2px;
+}
+.od-btn-p {
+  background: #f47a21;
+  border-radius: 8px;
+  width: 75%;
+  padding: 2px;
+}
+.od-btn-o {
+  background: #ecc22f;
+  border-radius: 8px;
+  width: 75%;
+  padding: 2px;
+}
+.od-btn-g {
+  background: #68c160;
+  border-radius: 8px;
+  width: 75%;
+  padding: 2px;
+}
+.td-5 {
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  font-family: "lato";
+}
+.td-6 {
+  text-align: left;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+}
+.td-7 {
+  text-align: left;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+}
+.canl-btn {
+  background: #ef694c;
+  border-radius: 4px;
+  width: 75%;
+  padding: 2px;
+}
+.td-8 {
+  text-align: left;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  font-family: "lato";
+}
+.i-name-id {
+  font-weight: 700;
+  font-size: 14px;
+  color: #2d3748;
+}
+.i-id {
+  font-weight: 700;
+  font-size: 14px;
+  color: #718096;
+}

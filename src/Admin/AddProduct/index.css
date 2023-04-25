@@ -1,0 +1,197 @@
+.addProduct{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  
+}
+
+.addProduct-form h1{
+  position: absolute;
+  top: 70px;
+  left: 40px;
+  font-weight: bold;
+  font-family: "Inter";
+
+}
+
+.addProduct-form{
+  display: flex;
+  width: 50%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+  margin-bottom: 50px;
+}
+
+.leftSide{
+  width: 90%;
+  height: 500px;
+  background-color: white;
+  border-radius: 15px; 
+}
+
+.option{
+  display: flex;
+  border-radius: 6px;
+  flex-direction: column;
+  padding-right: 10px;
+  margin-right: 20px;
+  padding-bottom: 20px;
+}
+
+.option input{
+  width: 90%;
+  border-radius: 6px;
+}
+
+.addProduct-form input
+{
+width: 95%;
+border-radius: 6px;
+}
+
+.single-row{
+width: 100%;
+
+}
+
+.single-column{
+width: 50%;
+float: left;
+padding-bottom: 20px;
+}
+
+.single-column input{
+width: 90%;
+border: 2px solid #E2E8F0 ;
+}
+
+#unit{
+  border-radius: 6px;
+  color: #A3A3A3;
+  border: 2px solid #E2E8F0 ;
+}
+
+#category{
+  border-radius: 6px;
+  color: #A3A3A3;
+  border: 2px solid #E2E8F0 ;
+}
+
+.join{
+  padding-bottom: 20px;
+}
+
+.join input{
+margin-bottom: 25px;
+border-radius: 6px;
+margin-top: 10px;
+border: 2px solid #E2E8F0 ;
+}
+
+.addRight{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+ 
+}
+
+.rightSide{
+  width: 90%;
+  height: 500px;
+  background-color: white;
+  border-radius: 15px;
+}
+
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    padding-right: 30px;
+    
+  }
+  form input {
+    height: 40px;
+    width: 100%;
+    border: 2px solid #E2E8F0 ;
+    border-radius: 10px;
+    color: #A3A3A3;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    
+  }
+
+  .image{
+    border-radius: 6px;
+    border: 1px solid #E2E8F0 ;
+  }
+ 
+  form textarea { 
+    margin-top: 10px;
+    width: 100%;
+    border: 1px solid #E2E8F0 ;
+    border-radius: 6px;
+    align-items: center;
+    color: black;
+  }
+
+  input::placeholder,
+  textarea::placeholder {
+    font-weight: 400;
+    color: #A3A3A3;
+    font-family: "Inter";
+  }
+
+  form input:focus,
+  textarea:focus {
+    outline: none;
+  }
+  
+  form label {
+    margin-right: 10px;
+    font-weight: bold;
+    width: 100%;
+    padding-bottom: 5px ;
+    border-radius: 6px;
+    font-family: Inter;
+    color:#2D3748;
+
+  }
+  
+  .btn {
+    margin-top: 20px;
+    width: 100%;
+    border-radius: 6px;
+    background-color: #76C139;
+    color: white ;
+    font-size: 15px;
+    cursor: pointer;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .para-ppp{
+    color: #696969;
+    margin-top: 20px;
+    width: 100%;
+    margin-left: 1px;
+    
+  }
+  .para-pp{
+    text-align: left;
+    font-size: 20px;   
+    min-width:60%;
+    font-weight: 200px;
+    font-family: "Inter";
+  }
+
+  .link{
+    color: #485BFF;
+    font-weight: bold;
+  }
