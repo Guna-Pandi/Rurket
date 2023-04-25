@@ -56,7 +56,9 @@ const Cart = () => {
       <div className="pt-3 h-full ">
         {/* Basket title  */}
         <div className="relative w-full flex items-center justify-center">
-          <BiArrowBack className="absolute text-lg md:text-2xl left-0" />
+          <Link to={"/"} className="absolute text-lg md:text-2xl left-0">
+            <BiArrowBack />
+          </Link>
           <p className="font-bold text-xl text-center md:text-2xl">Basket</p>
         </div>
 

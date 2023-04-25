@@ -6,6 +6,7 @@ import orderConfirmImg from "../../assets/img/TrackOrderImages/orderConfirm.png"
 import orderReadyImg from "../../assets/img/TrackOrderImages/orderReady.png";
 import orderDeliveryImg from "../../assets/img/TrackOrderImages/orderDelivery.png";
 import orderDeliveredImg from "../../assets/img/TrackOrderImages/orderDelivered.png";
+import { Link } from "react-router-dom";
 
 const orderStatus = [
   {
@@ -53,7 +54,9 @@ const TrackOrder = () => {
       <div className="pt-3 h-full ">
         {/* Track order title  */}
         <div className="relative w-full flex items-center justify-center">
-          <BiArrowBack className="absolute text-lg md:text-2xl left-0" />
+        <Link to={"/orderHistory"} className="absolute text-lg md:text-2xl left-0">
+          <BiArrowBack  />
+        </Link>
           <p className="font-bold text-xl text-center md:text-2xl">
             Track Order
           </p>

@@ -18,31 +18,28 @@ const customerAddress = [
   },
 ];
 
-const AddressCard = ({item})=>{
+const AddressCard = ({ item }) => {
   return (
-    <div
-    className="min-w-screen-5xl min-h-[122px] flex items-center gap-4 sm:px-14 bg-white text-md md:text-xl  justify-center rounded-lg p-4 drop-shadow-md "
-  >
-    <div>
-      <input
-        type="radio"
-        className=" focus:ring-rurketGreen checked:text-rurketGreen"
-      />
-    </div>
-    <div className="w-full flex flex-col gap-4 items-center justify-center">
-      <div className="w-full flex items-center gap-2">
-        <BsPerson className="text-xl" />
-        <p className="text-md">{item.name}</p>
+    <div className="min-w-screen-5xl min-h-[122px] flex items-center gap-4 sm:px-14 bg-white text-md md:text-xl  justify-center rounded-lg p-4 drop-shadow-md ">
+      <div>
+        <input
+          type="radio"
+          className=" focus:ring-rurketGreen checked:text-rurketGreen"
+        />
       </div>
-      <div className="w-full flex items-start  gap-2">
-        <SlLocationPin className="mt-1 text-xl" />
-        <p className="ml-1 overflow-scroll">{item.address}</p>
+      <div className="w-full flex flex-col gap-4 items-center justify-center">
+        <div className="w-full flex items-center gap-2">
+          <BsPerson className="text-xl" />
+          <p className="text-md">{item.name}</p>
+        </div>
+        <div className="w-full flex items-start  gap-2">
+          <SlLocationPin className="mt-1 text-xl" />
+          <p className="ml-1 overflow-scroll">{item.address}</p>
+        </div>
       </div>
     </div>
-  </div>
-  )
-}
-
+  );
+};
 
 const SelectAddress = () => {
   return (
@@ -51,7 +48,12 @@ const SelectAddress = () => {
       <div className="pt-3 h-full ">
         {/* Select Address title  */}
         <div className="relative w-full flex items-center justify-center">
-          <BiArrowBack className="absolute text-lg left-0 md:text-2xl" />
+          <Link
+            to={"/checkout"}
+            className="absolute text-lg left-0 md:text-2xl"
+          >
+            <BiArrowBack />
+          </Link>
           <p className="font-bold text-xl text-center md:text-2xl">
             Select Address
           </p>
@@ -61,7 +63,7 @@ const SelectAddress = () => {
           <div className="flex flex-col gap-4 sm:gap-6 md:gap-8">
             {/* Customer Address */}
             {customerAddress?.map((item) => (
-            <AddressCard item={item} key={item.id}/>
+              <AddressCard item={item} key={item.id} />
             ))}
           </div>
         </div>

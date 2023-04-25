@@ -9,7 +9,7 @@ const AddNewAddress = () => {
   return (
     <div className="back-fullcontainer">
       <div className="arrowcon-back">
-        <Link to="/">
+        <Link to="/selectAddress">
           <HiArrowSmLeft className="arrow-back" size={35} />
         </Link>
       </div>
@@ -64,14 +64,14 @@ const AddNewAddress = () => {
           </p>
         </div>
         <div className="add-btn">
-          <button className="addButton">
+          <Link to={"/selectAddress"} className="addButton">
             <div className="text-icon">
               <div className="plus-icon">
                 <BsPlusLg size={30} />
               </div>
               <div className="add-txt">Add address</div>
             </div>
-          </button>
+          </Link>
         </div>
       </form>
     </div>

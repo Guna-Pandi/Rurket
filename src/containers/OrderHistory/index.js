@@ -1,6 +1,7 @@
 import React from "react";
 import { BiArrowBack } from "react-icons/bi";
 import orderIdImg from "../../assets/img/TrackOrderImages/orderId.png";
+import { Link } from "react-router-dom";
 
 const orders = [
   {
@@ -46,7 +47,9 @@ const OrderHistory = () => {
       <div className="pt-3 h-full ">
         {/* Order History title  */}
         <div className="relative w-full flex items-center justify-center">
-          <BiArrowBack className="absolute text-lg md:text-2xl left-0" />
+          <Link to={"/"} className="absolute text-lg md:text-2xl left-0">
+            <BiArrowBack />
+          </Link>
           <p className="font-bold text-xl text-center md:text-2xl">
             Order History
           </p>

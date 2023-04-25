@@ -1,10 +1,7 @@
 import "./index.css";
 const RegisterButton = ({ text }) => {
   return (
-    <button
-      type="Submit"
-      className="registerbutton"
-    >
+    <button type="Submit" className="registerbutton">
       {text} 👉
     </button>
   );
